@@ -1,0 +1,20 @@
+
+
+make mig db mig installs or files make sure passport 
+
+update auth.users set Admin = 1 where UserId = 1;
+
+add Deleted col def v false and mm and dbm
+
+
+User signup: /users/signup
+
+User login: /users/login
+
+Show user profile: /users/profile
+
+Show a list of users: /users
+
+Show a specific user: /users/:id
+
+Delete user: /users/:id
